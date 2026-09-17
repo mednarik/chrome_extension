@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Copy .content HTML",
+  "version": "1.0",
+  "description": "Copies the outerHTML of the first element with class 'content'",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Copy .content HTML"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
